@@ -20,5 +20,13 @@
 .text-indentation{
     text-indent: 30px;
 }
-
-
+/*text decoration*/
+.text-decorations{
+ text-decoration: overline;
+ /* text-decoration: line-through; */
+ /* text-decoration: underline; */
+}
+/*latter spacing*/
+.latter-spacings{
+   letter-spacing: 10px;
+}
