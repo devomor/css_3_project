@@ -1,0 +1,11 @@
+.font-familys{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.font-styles{
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+}
+.font-variants{
+    font-variant: small-caps;
+}
