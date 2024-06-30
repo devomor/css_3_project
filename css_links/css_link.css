@@ -1,0 +1,42 @@
+/*unvisited link*/
+.visit:link{
+ color: aliceblue;
+ text-decoration: none;
+ border: 1px solid;
+}
+/*visited link*/
+.visit:visited{
+    color: #ff00ff;
+}
+/*mouse over link*/
+.visit:hover{
+    counter-reset: #00ff00;
+    border-bottom: none;
+}
+/*active link*/
+.visit:active{
+    color: #00ffff;
+}
+/*Remove the default underline from hyperlinks*/
+.remove-underlines:link, .vremove-underlines:visited{
+    text-decoration: none;
+}
+.remove-underlines:active ,.remove-underlines:hover{
+    text-decoration: underline;
+}
+/*customize a link to look like a button*/
+.customize-link:link, .customize-link:visited{
+    color: white;
+    background-color: #1ebba3;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #099983;
+    text-decoration: none;
+    text-align: center;
+    font: 14px Arial,sans-serif;
+}
+.customize-link:hover, .customize-link:active{
+    background-color: #9c6ae1;
+    border-color: #7443b6;
+}
+
