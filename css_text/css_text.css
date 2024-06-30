@@ -1,6 +1,24 @@
-body{
-    color: #ff5722;
-}
+/*text color set*/
 .text-green{
     color: #008000;
 }
+/* text alignment*/
+.text-center{
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: end; */
+    /* text-align: start; */
+    /* text-align: match-parent; */
+}
+/*text justify*/
+.text-justify{
+    width: 300px;
+    text-align: justify;
+}
+/*text indentation text line indentation*/
+.text-indentation{
+    text-indent: 30px;
+}
+
+
