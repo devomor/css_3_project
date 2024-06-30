@@ -30,3 +30,26 @@
 .latter-spacings{
    letter-spacing: 10px;
 }
+/*word spacing*/
+.word-spacings{
+    word-spacing: 20px;
+}
+/*line height*/
+.line-heights{
+    line-height: 30px;
+}
+/*word wraps*/
+.word-wraps{
+    width:  400px;
+    word-wrap: break-word;
+}
+/*vatical alignment*/
+p.one img{
+    vertical-align: top;
+}
+p.two img{
+    vertical-align: middle;
+}
+p.thre img{
+    vertical-align: baseline;
+}
