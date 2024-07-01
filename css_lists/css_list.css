@@ -1,0 +1,28 @@
+
+/*list style type  all*/
+ul{
+    list-style-type: disc;
+    list-style-type: armenian;
+    list-style-type: circle;
+    list-style-type: decimal-leading-zero;
+    list-style-type: decimal;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style-type: lower-roman;
+    list-style-type: none;
+    list-style-type: square;
+    list-style-type: upper-roman;
+
+}
+/*list style position*/
+ol li{
+    background: #ddd;
+    padding: 5px;
+    margin: 5px;
+    list-style-position: inside;
+    list-style-position: outside;
+    list-style-image: url('https://i.ibb.co/8MVfQv6/Screenshot-2024-03-15-at-8-21-19-AM.png');
+    margin: 5px;
+}
